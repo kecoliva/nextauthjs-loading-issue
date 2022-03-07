@@ -1,5 +1,5 @@
 import createStore from 'zustand'
-import createPasswordStrengthSlice, { PasswordStrengthSlice } from './slices/passwordStrength.slice'
+import createPasswordStrengthSlice, { PasswordStrengthSlice } from './passwordStrength.slice'
 
 export type State = PasswordStrengthSlice
 
